@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Icon-1024" translatesAutoresizingMaskIntoConstraints="NO" id="ujP-Vj-UBy">
+                                <rect key="frame" x="50" y="50" width="314" height="796"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ujP-Vj-UBy" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="E7T-z5-bbv"/>
+                            <constraint firstItem="ujP-Vj-UBy" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="J62-xO-nG1"/>
+                            <constraint firstAttribute="bottom" secondItem="ujP-Vj-UBy" secondAttribute="bottom" constant="50" id="Ovg-fi-Kp1"/>
+                            <constraint firstItem="ujP-Vj-UBy" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="50" id="Vu5-dc-SoH"/>
+                            <constraint firstItem="ujP-Vj-UBy" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="50" id="dv1-er-IQO"/>
+                            <constraint firstAttribute="trailing" secondItem="ujP-Vj-UBy" secondAttribute="trailing" constant="50" id="vuD-Xl-hBH"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Icon-1024" width="1024" height="1024"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
