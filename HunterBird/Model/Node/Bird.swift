@@ -51,7 +51,7 @@ class Bird : SKSpriteNode {
     }
     
     
-    func flyAnimation(active : Bool) { //Important
+    func flyAnimation(active : Bool) {
         if active {
             run(SKAction.repeatForever(SKAction.animate(with: flyShoot, timePerFrame: 0.08, resize: true, restore: true)))
         } else {
