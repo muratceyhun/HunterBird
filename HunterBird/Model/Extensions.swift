@@ -23,7 +23,6 @@ extension CGPoint {
     }
 }
 
-
 extension SKNode {
     
     func scale(size : CGSize, width : Bool, rate : CGFloat) {
