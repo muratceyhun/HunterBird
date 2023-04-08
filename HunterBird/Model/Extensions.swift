@@ -1,7 +1,6 @@
 //
 //  Extensions.swift
 //  HunterBird
-//
 //  Created by Murat Ceyhun Korpeoglu on 9.08.2022.
 //
 
