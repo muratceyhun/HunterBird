@@ -8,7 +8,6 @@ import Foundation
 import CoreGraphics
 import SpriteKit
 
-
 extension CGPoint {
     
     static public func +(left : CGPoint, right : CGPoint) -> CGPoint {
